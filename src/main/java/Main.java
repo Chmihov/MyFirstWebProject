@@ -10,11 +10,11 @@ public class Main extends User_DB {
     public static void main(String[] args) {
 
 
-try {
-    creadUser();
-}catch (SQLException sql){
-    System.out.println(sql.getMessage());
-}
+        try {
+            creadUser();
+        }catch (SQLException sql){
+            System.out.println(sql.getMessage());
+        }
 
     }
 }
