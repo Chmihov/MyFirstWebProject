@@ -8,7 +8,7 @@ import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 
-public class User_DB extends ConnectSUBD   {
+public class User_DB extends ConnectSUBD {
 
 
     public static void creadUser() throws SQLException {
